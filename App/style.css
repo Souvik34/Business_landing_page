@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.hero-buttons .btn-primary {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero-buttons .btn-secondary {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ff9800;
+    color: #ff9800;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+/* Features Section */
+.features-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features-section h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+/* Video Support Section */
+.video-support-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.video-content {
+    max-width: 500px;
+}
+
+.video-content h2 {
+    margin-bottom: 20px;
+}
+
+.video-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.video-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer button {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
