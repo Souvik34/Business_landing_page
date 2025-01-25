@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <section class="flex flex-col rounded-none bg-linear-gradient h-screen" role="banner" aria-label="Hero Section">
-    <div class="flex relative flex-col items-center px-20 pt-6 pb-44 w-full min-h-[1000px] max-md:px-5 max-md:pb-24 max-md:max-w-full">
+  <section class="flex flex-col rounded-none bg-linear-gradient h-[1000px] w-[1920px] pb-40" role="banner" aria-label="Hero Section">
+    <div class="flex relative flex-col items-center px-20 pt-6 w-full min-h-[150vh] max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <div class="flex relative flex-col -mb-9 ml-2.5 max-w-full w-[1269px] max-md:mb-2.5">
         <nav class="flex flex-wrap gap-5 justify-between items-start" role="navigation" aria-label="Main navigation">
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d05c84160e65c0119c52dbc71bb8f81c4eb1dccd34bfe1b4c71b3f4f488c7e?apiKey=2b7443a1ded74e1fba681427716fbd88&" class="object-contain shrink-0 max-w-full aspect-[5.26] w-[195px] max-lg:w-[150px]" alt="Company Logo" />
@@ -77,13 +77,13 @@
                   </div>
                 </div>
                 <h1 class="self-stretch mt-5 text-5xl font-bold tracking-tighter leading-[70px] text-slate-900 max-md:max-w-full max-md:text-4xl max-md:leading-[60px]">
-                  Engage your website visitors using support
+                  Engage your website <br> visitors using support
                   <br />
                   management tools
                 </h1>
                 <p class="mt-4 text-base leading-10 text-slate-900 max-md:max-w-full">
-                  Explore 50+ integrations that make your day-to-day workflow more
-                  efficient and familiar. Our extensive developer tools might also
+                  Explore 50+ integrations that make your day-to-day workflow <br> more
+                  efficient and familiar. Our extensive developer tools might <br> also
                   strike your fancy website.
                 </p>
                 <div class="flex gap-4 mt-16 text-base tracking-normal max-md:mt-10">
@@ -97,13 +97,37 @@
               </div>
             </div>
             <div class="flex flex-col ml-5 w-[55%] max-md:ml-0 max-md:w-full">
-              <img loading="lazy" src="/Assets/header.png" class="object-contain grow w-full aspect-[1.1] max-md:max-w-full" alt="Support management tools illustration" />
+              <img class="header-image  hidden md:block" loading="lazy" src="/Assets/header.png" class="object-contain grow w-full aspect-[1.1] max-md:max-w-full" alt="Support management tools illustration" style="width: 85%; height: auto;" />
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+  <section class="flex flex-col items-center justify-center h-screen mt-0">
+    <div class="text-center">
+      <p class="text-orange-500 text-md mb-2">Idea Solutions for You</p>
+      <p class="text-black text-lg mb-12">Go beyond ultimate features</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+      <div class="flex flex-col items-center justify-center p-4 bg-white rounded shadow-md">
+        <h2 class="text-lg font-bold mb-2">Feature 1</h2>
+        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center p-4 bg-white rounded shadow-md">
+        <h2 class="text-lg font-bold mb-2">Feature 2</h2>
+        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center p-4 bg-white rounded shadow-md">
+        <h2 class="text-lg font-bold mb-2">Feature 3</h2>
+        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+      </div>
+    </div>
+  </section>
+
+
   <section aria-label="Video Calling Feature" class="flex flex-col items-center text-base rounded-none text-slate-900">
     <h2 class="ml-4 text-3xl font-medium tracking-tighter text-center max-md:max-w-full">
       Introducing video calling support
