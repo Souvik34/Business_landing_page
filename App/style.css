@@ -50,3 +50,6 @@ body {
   max-width: 100%;
   height: auto;
 }
+.icon {
+  transform: translateY(-35px);
+}
