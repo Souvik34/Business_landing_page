@@ -1,77 +1,76 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 .dropdown-menu {
-    position: absolute;
-    background-color: #fff;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 200px;
-    max-width: 100%;
-   }
-  
-  .dropdown-menu a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .dropdown-menu a:hover {
-    background-color: #f7f7f7;
-  }
-  
-  @media (max-width: 768px) {
-    .dropdown-menu {
-      width: 150px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .dropdown-menu {
-      width: 100%;
-    }
-  }
-  
-  .dropdown-menu {
-    top: 100%;
-    left: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .dropdown-menu {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .dropdown-menu {
-      left: 0;
-      transform: none;
-    }
-  }
-  
-  .dropdown-link:hover + .dropdown-menu {
-    display: block;
-  }
+  position: absolute;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  max-width: 100%;
+ }
 
-  .bg-orange-500 {
-    background-color: #FFA07A; /* or any other custom orange color you prefer */
-  }
-  
-  .bg-orange-400 {
-    background-color: #FABF62; /* or any other custom orange color you prefer */
-  }
-
-  .bg-linear-gradient {
-    background-image: linear-gradient(to bottom, #FFFEFC 0%, #FEFAF5 100%);
+.dropdown-menu a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
 }
 
+.dropdown-menu a:hover {
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+
+.dropdown-menu {
+  top: 100%;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .dropdown-menu {
+    left: 0;
+    transform: none;
+  }
+}
+
+.dropdown-link:hover + .dropdown-menu {
+  display: block;
+}
+
+.bg-orange-500 {
+  background-color: #FFA07A; /* or any other custom orange color you prefer */
+}
+
+.bg-orange-400 {
+  background-color: #FABF62; /* or any other custom orange color you prefer */
+}
+
+.bg-linear-gradient {
+  background-image: linear-gradient(to bottom, #FFFEFC 0%, #FEFAF5 100%);
+}
