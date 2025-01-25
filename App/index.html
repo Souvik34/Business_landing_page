@@ -13,28 +13,56 @@
   <section class="flex flex-col rounded-none bg-linear-gradient h-screen" role="banner" aria-label="Hero Section">
     <div class="flex relative flex-col items-center px-20 pt-6 pb-44 w-full min-h-[1000px] max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <div class="flex relative flex-col -mb-9 ml-2.5 max-w-full w-[1269px] max-md:mb-2.5">
-        <nav class="flex flex-wrap gap-5 justify-between items-start max-md:mr-2.5 max-md:max-w-full" role="navigation" aria-label="Main navigation">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d05c84160e65c0119c52dbc71bb8f81c4eb1dccd34bfe1b4c71b3f4f488c7e?apiKey=2b7443a1ded74e1fba681427716fbd88&" class="object-contain shrink-0 max-w-full aspect-[5.26] w-[195px] max-md:w-[150px]" alt="Company Logo" />
-          <div class="self-stretch my-auto text-base leading-loose text-center text-slate-900" role="list">
-            <a href="#home" class="text-slate-900 px-3 py-2" role="listitem">Home</a>
-            <a href="#categories" class="text-slate-900 px-3 py-2 relative inline-flex items-center dropdown-link" role="listitem">
-              Categories
-              <svg class="ml-2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.5 0.5L5 5L0.5 0.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div class="dropdown-menu absolute bg-white shadow-md p-4 hidden">
-                <a href="#" class="block py-2">Category 1</a>
-                <a href="#" class="block py-2">Category 2</a>
-                <a href="#" class="block py-2">Category 3</a>
+        <nav class="flex flex-wrap gap-5 justify-between items-start" role="navigation" aria-label="Main navigation">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d05c84160e65c0119c52dbc71bb8f81c4eb1dccd34bfe1b4c71b3f4f488c7e?apiKey=2b7443a1ded74e1fba681427716fbd88&" class="object-contain shrink-0 max-w-full aspect-[5.26] w-[195px] max-lg:w-[150px]" alt="Company Logo" />
+            <div class="self-stretch my-auto text-base leading-loose text-center text-slate-900 hidden lg:block" role="list">
+              <div class="flex justify-center gap-10">
+                <a href="#home" class="text-slate-900 px-3 py-2" role="listitem">Home</a>
+                <a href="#categories" class="text-slate-900 px-3 py-2 relative inline-flex items-center dropdown-link" role="listitem">
+                  Categories
+                  <svg class="ml-2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 0.5L5 5L0.5 0.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <div class="dropdown-menu absolute bg-white shadow-md p-4 hidden">
+                    <a href="#" class="block py-2">Category 1</a>
+                    <a href="#" class="block py-2">Category 2</a>
+                    <a href="#" class="block py-2">Category 3</a>
+                  </div>
+                </a>
+                <a href="#contact" class="text-slate-900 px-3 py-2" role="listitem">Contact</a>
+                <a href="#about" class="text-slate-900 px-3 py-2" role="listitem">About us</a>
               </div>
-            </a>
-            <a href="#contact" class="text-slate-900 px-3 py-2" role="listitem">Contact</a>
-            <a href="#about" class="text-slate-900 px-3 py-2" role="listitem">About us</a>
-          </div>
-          <button class="px-5 py-3 text-base font-bold tracking-normal text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 max-md:px-4" aria-label="Purchase Now">
-            Purchase Now
-          </button>
-        </nav>
+            </div>
+            <button class="px-5 py-3 text-base font-bold tracking-normal text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" aria-label="Purchase Now">
+              Purchase Now
+            </button>
+            <button class="lg:hidden" id="hamburger-menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="#333" />
+              </svg>
+            </button>
+            <div class="hidden lg:hidden" id="mobile-menu">
+              <div class="flex flex-col items-start self-stretch my-auto w-full">
+                <a href="#home" class="text-slate-900 px-3 py-2" role="listitem">Home</a>
+                <a href="#categories" class="text-slate-900 px-3 py-2 relative inline-flex items-center dropdown-link" role="listitem">
+                  Categories
+                  <svg class="ml-2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 0.5L5 5L0.5 0.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <div class="dropdown-menu absolute bg-white shadow-md p-4 hidden">
+                    <a href="#" class="block py-2">Category 1</a>
+                    <a href="#" class="block py-2">Category 2</a>
+                    <a href="#" class="block py-2">Category 3</a>
+                  </div>
+                </a>
+                <a href="#contact" class="text-slate-900 px-3 py-2" role="listitem">Contact</a>
+                <a href="#about" class="text-slate-900 px-3 py-2" role="listitem">About us</a>
+                <button class="px-5 py-3 text-base font-bold tracking-normal text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" aria-label="Purchase Now">
+                  Purchase Now
+                </button>
+              </div>
+            </div>
+          </nav>
         <div class="mt-32 max-md:mt-10 max-md:max-w-full">
           <div class="flex gap-5 max-md:flex-col">
             <div class="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
@@ -87,9 +115,18 @@
     <a href="#details" class="mt-11 font-bold leading-10 text-blue-400 max-md:mt-10 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2" tabindex="0">
       Explore Details
     </a>
-    <div class="flex self-stretch mt-7 w-full rounded-none min-h-[600px] max-md:max-w-full" role="img" aria-label="Video calling feature demonstration">
+    <div class="flex self-stretch mt-7 w-full rounded-none min-h-[600px ] max-md:max-w-full" role="img" aria-label="Video calling feature demonstration">
     </div>
   </section>
+
+  <script>
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburgerMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 
 </html>
