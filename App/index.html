@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <section class="flex flex-col rounded-none bg-linear-gradient h-[1000px] w-[1920px] pb-40" role="banner" aria-label="Hero Section">
     <div class="flex relative flex-col items-center px-20 pt-6 w-full min-h-[150vh] max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <div class="flex relative flex-col -mb-9 ml-2.5 max-w-full w-[1269px] max-md:mb-2.5">
@@ -68,7 +69,7 @@
             <div class="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
                 <div class="flex gap-6 items-center px-4 bg-white rounded-[50px] shadow-[0px_2px_8px_rgba(67,99,136,0.07)]" role="alert" aria-live="polite">
-                  <button class="bg-orange-400 hover:bg-orange-500 text-black font-bold py-1 px-2 rounded-full text-xs mx-1 my-1">
+                  <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-1 px-2 rounded-full text-xs mx-1 my-1">
                     NEWS
                   </button>
                   <div class="flex flex-auto gap-2 self-stretch my-auto text-sm text-slate-900" role="text">
@@ -144,20 +145,114 @@
   </section>
 
 
-  <section aria-label="Video Calling Feature" class="flex flex-col items-center text-base rounded-none text-slate-900">
-    <h2 class="ml-4 text-3xl font-medium tracking-tighter text-center max-md:max-w-full">
+
+
+  <section aria-label="Video Calling Feature" class="flex flex-col items-center text-base rounded-none mt-20 h-screen text-slate-900">
+    <h2 class="ml-4 text-5xl font-medium tracking-tighter text-center max-md:max-w-full">
       Introducing video calling support
     </h2>
     <p class="mt-4 ml-4 leading-9 text-center max-md:max-w-full">
-      Every email, web page, and social media post makes an impression on your
-      customers. With our software you can be confident it's impression.
+      Every email, web page, and social media post makes an impression on your <br> customers. With our software you can be confident it's impression.
     </p>
     <a href="#details" class="mt-11 font-bold leading-10 text-blue-400 max-md:mt-10 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2" tabindex="0">
       Explore Details
     </a>
-    <div class="flex self-stretch mt-7 w-full rounded-none min-h-[600px ] max-md:max-w-full" role="img" aria-label="Video calling feature demonstration">
+    <div>
+      <!-- <img class="absolute custom-left-margin top-1/2 w-[277px] md:w-[350px] lg:w-[400px] h-[143px] md:h-[200px] lg:h-[250px] sm:h-[100px] xs:h-[80px]" src="/Assets/chat.png" alt="Chat Image">
+      <img class="w-[1000px] md:w-[800px] lg:w-[1200px] h-[600px] md:h-[500px] lg:h-[700px] ml-2" src="/Assets/browser.png" alt="Browser Image">
+      </div>
+      <img class="absolute custom-right-margin top-2/3 w-[277px] md:w-[350px] lg:w-[400px] h-[143px] md:h-[200px] lg:h-[250px] sm:h-[100px] xs:h-[80px]" src="/Assets/chat2.png" alt="Chat Image"> -->
+
+      <img class="w-[1000px] md:w-[800px] lg:w-[1200px] h-[600px] md:h-[500px] lg:h-[700px] ml-2" src="/Assets/videocall.png" alt="Browser Image">
+    </div>
+
+    
+  </div>
+  </section>
+
+
+  
+  <section class="pricing-plans flex flex-col pt-9 mt-56 rounded-none w-[600px] h-[820px] ml-40 mr-40" aria-labelledby="pricing-title">
+    <h2 id="pricing-title" class="self-center text-2xl font-medium tracking-tight text-center leading-[50px] text-slate-900">
+      Meet our pricing plan that suit you
+    </h2>
+    <div class="flex flex-wrap gap-10 mt-32 max-md:mt-10 max-md:max-w-full" role="list">
+      <div class="flex flex-col items-start my-auto text-base font-medium text-gray-700" role="list">
+        <div class="self-stretch" role="listitem">Full Access Library</div>
+        <div class="mt-10" role="listitem">Multiple user</div>
+        <div class="mt-10" role="listitem">Refund Policy</div>
+        <div class="mt-10" role="listitem">Google Analytics</div>
+        <div class="mt-10" role="listitem">24/7 support</div>
+      </div>
+      <div class="flex-auto max-md:max-w-full">
+        <div class="flex gap-1 max-md:flex-col">
+          <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full" role="article">
+            <div class="flex flex-col grow items-center px-8 pt-8 pb-16 mt-9 w-full text-base font-bold shadow-md text-center bg-white rounded-xl border border-gray-100 border-solid text-slate-900 max-md:px-5 max-md:mt-10">
+              <h3 class="font-medium">Starter Pack</h3>
+              <div class="mt-6 text-2xl tracking-tight" aria-label="Price: 18.99 dollars per month">
+                $18.99/
+                <span class="text-lg font-medium text-slate-900">per mo.</span>
+              </div>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a59406238649641a2c416abdfedee7439045fa41975984c89c3bba013e3c0c0?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88" alt="" class="object-contain mt-16 w-5 aspect-[0.08] max-md:hidden max-md:mt-10" />
+              <button class="self-stretch px-10 py-1.5 mt-16 tracking-tight leading-10 text-amber-300 bg-white rounded-md border-2 border-amber-300 border-solid max-md:px-5 max-md:mt-10" aria-label="Choose Starter Pack plan">
+                Choose Plan
+              </button>
+              <div class="mt-6 text-base">15 days free trial</div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full" role="article">
+            <div class="flex flex-col grow  font-bold text-center max-md:mt-2 -mt-10">
+              <div class="px-16 py-3 text-sm text-white uppercase whitespace-nowrap bg-blue-400 rounded-lg max-md:px-5" aria-label="Recommended plan">
+                Recommended
+              </div>
+              <div class="flex flex-col items-center px-8 pt-8 pb-16 text-base bg-white rounded-none shadow-md text-slate-900 max-md:px-5">
+                <h3 class="font-medium">Premium Pack</h3>
+                <div class="mt-6 text-2xl tracking-tight" aria-label="Price: 29.99 dollars per month">
+                  $29.99/
+                  <span class="text-lg font-medium text-slate-900">per mo.</span>
+                </div>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/294a2da90d3b2d39bc015df50b7ff70c5de372d659ed0a6f56755f0e304c553b?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88" alt="" class="object-contain mt-16 w-5 aspect-[0.08] max-md:hidden max-md:mt-10" />
+                <button class="self-stretch px-10 py-1.5 mt-16 tracking-tight leading-10 text-white bg-orange-400 rounded-md max-md:px-5 max-md:mt-10" aria-label="Choose Premium Pack plan">
+                  Choose Plan
+                </button>
+                <div class="mt-6 text-base">30 days free trial</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full" role="article">
+            <div class="flex flex-col grow items-center px-8 pt-8 pb-16 mt-9 w-full text-base  shadow-md font-bold text-center bg-white rounded-xl border border-gray-100 border-solid text-slate-900 max-md:px-5 max-md:mt-10">
+              <h3 class="font-medium">Custom Pack</h3>
+              <div class="mt-6 text-2xl tracking-tight" aria-label="Price: 23.99 dollars per month">
+                $23.99/
+                <span class="text-lg font-medium text-slate-900">per mo.</span>
+              </div>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/294a2da90d3b2d39bc015df50b7ff70c5de372d659ed0a6f56755f0e304c553b?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88" alt="" class="object-contain mt-16 w-5 aspect-[0.08] max-md:hidden max-md:mt-10" />
+              <button class="self-stretch px-10 py-1.5 mt-16 tracking-tight leading-10 text-amber-300 bg-white rounded-md border-2 border-amber-300 border-solid max-md:px-5 max-md:mt-10" aria-label="Choose Custom Pack plan">
+                Choose Plan
+              </button>
+              <div class="mt-6 text-base">30 days free trial</div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full" role="article">
+            <div class="flex flex-col grow items-center px-8 pt-8 pb-16 mt-9 w-full text-base font-bold  shadow-md text-center bg-white rounded-xl border border-gray-100 border-solid text-slate-900 max-md:px-5 max-md:mt-10">
+              <h3 class="font-medium">Ultimate Pack</h3>
+              <div class="mt-6 text-2xl tracking-tight" aria-label="Price: 35.99 dollars per month">
+                $35.99/
+                <span class="text-lg font-medium text-slate-900">per mo.</span>
+              </div>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a160e9afe45380d056df87a650f4c12d55eb74b6364f476538b6fc32f3cc4dcc?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88" alt="" class="object-contain mt-16 w-5 aspect-[0.08] max-md:hidden max-md:mt-10" />
+              <button class="self-stretch px-10 py-1.5 mt-16 tracking-tight leading-10 text-amber-300 bg-white rounded-md border-2 border-amber-300 border-solid max-md:px-5 max-md:mt-10" aria-label="Choose Ultimate Pack plan">
+                Choose Plan
+              </button>
+              <div class="mt-6 text-base">45 days free trial</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
+
 
   <script>
     const hamburgerMenu = document.getElementById('hamburger-menu');

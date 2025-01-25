@@ -53,3 +53,47 @@ body {
 .icon {
   transform: translateY(-35px);
 }
+
+.custom-left-margin {
+  left: 25vh;
+  margin-top: 15vh;
+}
+
+.custom-right-margin {
+  right: 20vh;
+  margin-top: 80vh;
+}
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .pricing-plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-plans > div {
+    width: 100%;
+  }
+  .pricing-plans > div > div {
+    margin: 20px 0;
+  }
+  .pricing-plans > div > div > div {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Small devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .pricing-plans {
+    padding: 20px;
+  }
+  .pricing-plans > div {
+    padding: 20px;
+  }
+  .pricing-plans > div > div {
+    margin: 10px 0;
+  }
+  .pricing-plans > div > div > div {
+    padding: 10px;
+  }
+}
