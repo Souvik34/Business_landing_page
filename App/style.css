@@ -63,3 +63,8 @@ body {
   right: 20vh;
   margin-top: 80vh;
 }
+
+.bg-blue-700
+{
+  background-color: #353448;
+}
