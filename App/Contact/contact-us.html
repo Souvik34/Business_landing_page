@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StartupLanding</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/App/style.css">
+</head>
+
+<body>
+
+  <section class="flex flex-col rounded-none bg-linear-gradient h-[800px] w-[1920px] " role="banner" aria-label="Hero Section">
+    <div class="flex relative flex-col items-center px-20 pt-6 w-full min-h-[150vh] max-md:px-5 max-md:pb-24 max-md:max-w-full">
+      <div class="flex relative flex-col -mb-9 ml-2.5 max-w-full w-[1269px] max-md:mb-2.5">
+        <nav class="flex flex-wrap gap-20 justify-between items-start" role="navigation" aria-label="Main navigation">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d05c84160e65c0119c52dbc71bb8f81c4eb1dccd34bfe1b4c71b3f4f488c7e?apiKey=2b7443a1ded74e1fba681427716fbd88&" class="object-contain shrink-0 max-w-full aspect-[5.26] w-[195px] max-lg:w-[150px]" alt="Company Logo" />
+          <div class="self-stretch my-auto text-base leading-loose text-center text-slate-900 hidden lg:block" role="list">
+            <div class="flex justify-center gap-10">
+              <a href="#home" class="text-slate-900 px-3 py-2" role="listitem">Home</a>
+              <a href="#categories" class="text-slate-900 px-3 py-2 relative inline-flex items-center dropdown-link" role="listitem">
+                Categories
+                <svg class="ml-2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 0.5L5 5L0.5 0.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="dropdown-menu absolute bg-white shadow-md p-4 hidden">
+                  <a href="#" class="block py-2">Category 1</a>
+                  <a href="#" class="block py-2">Category 2</a>
+                  <a href="#" class="block py-2">Category 3</a>
+                </div>
+              </a>
+              <a href="#contact" class="text-slate-900 px-3 py-2" role="listitem">Contact</a>
+              <a href="#about" class="text-slate-900 px-3 py-2" role="listitem">About us</a>
+            </div>
+          </div>
+          <button class="px-5 py-3 text-base font-bold tracking-normal text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 lg:block hidden purchase-now-button" aria-label="Purchase Now">
+            Purchase Now
+          </button>
+          <button class="lg:hidden" id="hamburger-menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="#333" />
+            </svg>
+          </button>
+          <div class="hidden lg:hidden" id="mobile-menu">
+            <div class="flex flex-col items-start self-stretch my-auto w-full">
+              <a href="#home" class="text-slate-900 px-3 py-2" role="listitem">Home</a>
+              <a href="#categories" class="text-slate-900 px-3 py-2 relative inline-flex items-center dropdown-link" role="listitem">
+                Categories
+                <svg class="ml-2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 0.5L5 5L0.5 0.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="dropdown-menu absolute bg-white shadow-md p-4 hidden">
+                  <a href="#" class="block py-2">Category 1</a>
+                  <a href="#" class="block py-2">Category 2</a>
+                  <a href="#" class="block py-2">Category 3</a>
+                </div>
+              </a>
+              <a href="#contact" class="text-slate-900 px-3 py-2" role="listitem">Contact</a>
+              <a href="#about" class="text-slate-900 px-3 py-2" role="listitem">About us</a>
+              <button class="px-5 py-3 text-base font-bold tracking-normal text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" aria-label="Purchase Now">
+                Purchase Now
+              </button>
+            </div>
+          </div>
+        </nav>
+            <section aria-labelledby="contact-heading" class="flex flex-wrap gap-10 items-end">
+                <div class="flex flex-col self-stretch">
+                  <div class="flex gap-8 pr-20 mr-0 text-4xl font-semibold text-stone-900">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/4404dde7d69cbab83f85caa6d6d057d46d9743e4b225ee1fe821f735536bacb4?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88"
+                      alt=""
+                      class="object-contain shrink-0 self-end mt-9 max-w-full aspect-[34.48] w-[102px]"
+                    />
+                    <h1 id="contact-heading" class="grow shrink mt-24 mr-14 w-[180px]">Contact us</h1>
+                  </div>
+                
+        
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-12 mt-16 mb-12">
+            
+              <div class="flex flex-col items-center justify-center p-4  ">
+                <div class="flex items-center">
+                  <img class="w-16 h-16 mr-4 icon" src="/Assets/location.png" alt="Icon 2">
+                  <div>
+                    <h2 class="text-lg font-bold  mb-2">Address</h2>
+                    <p class="text-gray-600 text-sm leading-8  mb-4">Jaipur Rajasthan INDIA <br>
+                        Pin 342087</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col items-center justify-center p-4  ">
+                <div class="flex items-center">
+                  <img class="w-16 h-16 mr-4 icon" src="/Assets/acll.png" alt="Icon 2">
+                  <div>
+                    <h2 class="text-lg font-bold  mb-2">Call us</h2>
+                    <p class="text-gray-600 text-sm leading-8  mb-4">+91 98765 43210</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col items-center justify-center p-4  ">
+                <div class="flex items-center">
+                  <img class="w-16 h-16 mr-4 icon" src="/Assets/mail.png" alt="Icon 2">
+                  <div>
+                    <h2 class="text-lg font-bold  mb-2">Mail us</h2>
+                    <p class="text-gray-600 text-sm leading-8  mb-4">info@test.com</p>
+                  </div>
+                </div>
+              </div>
+           
+          </section>
+        </section>
+    
+        
+        <section class="flex flex-col justify-center items-center bg-zinc-300 pt-20 pb-20">
+            <h2 class="self-center text-4xl font-semibold text-center text-zinc-800 mb-12">
+              Get in touch with us.
+              <br />
+              We're here to assist you.
+            </h2>
+            <div class="flex flex-col rounded-3xl bg-white p-20 w-1/2 shadow-md ">
+          
+              
+              <form class="flex flex-col items-center mt-10 w-full ">
+                <div class="flex flex-wrap gap-7 w-full text-base font-medium leading-loose">
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="fullName" class="self-start text-zinc-500">Full name</label>
+                    <input type="text" id="fullName" name="fullName" class="py-3 mt-4 border-b border-zinc-500 text-zinc-400 input-width" placeholder="Ram Kumar Sharma" />
+                  </div>
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 text-zinc-500 w-fit">
+                    <label for="email" class="self-start">Email address</label>
+                    <input type="email" id="email" name="email" required class="py-3 mt-4 border-b border-zinc-500 input-width" />
+                  </div>
+                </div>
+                
+                <div class="flex flex-wrap gap-7 mt-12 w-full text-base font-medium leading-loose text-zinc-500">
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="gender" class="self-start">Gender</label>
+                    <select id="gender" name="gender" class="py-3 mt-4 border-b border-zinc-500 input-width">
+                      <option value="">Select gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="city" class="self-start">City</label>
+                    <input type="text" id="city" name="city" class="py-3 mt-1 border-b border-zinc-500 input-width" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap gap-7 mt-12 w-full text-base font-medium leading-loose text-zinc-500">
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="state" class="self-start">State</label>
+                    <input type="text" id="state" name="state" class="py-3 mt-4 border-b border-zinc-500 input-width" />
+                  </div>
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="country" class="self-start">Country</label>
+                    <input type="text" id="country" name="country" class="py-3 mt-4 border-b border-zinc-500 input-width" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap gap-7 mt-12 w-full text-base font-medium leading-loose text-zinc-500 ">
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="address" class="self-start">Address</label>
+                    <input type="text" id="address" name="address" class="py-3 mt-4 border-b border-zinc-500" />
+                  </div>
+                  <div class="flex flex-col flex-1 grow shrink-0 basis-0 w-fit">
+                    <label for="message" class="self-start">Message</label>
+                    <textarea id="message" name="message" class="py-3 mt-4 border-b border-zinc-500 input-width"></textarea>
+                  </div>
+                </div>
+                <div class="mt-12 w-full">
+                  <div class="flex gap-5">
+                    <div class="flex flex-col w-6/12">
+                      <div class="flex flex-col items-start w-full text-base font-medium leading-loose text-zinc-500">
+                        <fieldset>
+                          <legend>Request a counselling session</legend>
+                          <div class="flex gap-12 mt-4 ml-8 whitespace-nowrap">
+                            <div class="flex items-center gap-2">
+                                <input type="radio" id="counsellingYes" name="counselling" value="yes" class="radio-button" />
+                                <label for="counsellingYes">Yes</label>
+                              </div>
+                              <div class="flex items-center gap-2">
+                                <input type="radio" id="counsellingNo" name="counselling" value="no" class="radio-button" />
+                                <span class="flex shrink-0 self-start bg-orange-100 rounded-full h-[23px] w-[23px]" role="radio" aria-checked="true" tabindex="0"></span>
+                                <label for="counsellingNo">No</label>
+                              </div>
+                          </div>
+                        </fieldset>
+                        <div class="flex ml-8 gap-3 mt-12">
+                            <input type="checkbox" id="terms" name="terms" required class="checkbox" />
+                            <span class="flex shrink-0 w-7 h-7 bg-orange-500 rounded" role="checkbox" aria-checked="false" tabindex="0"></span>
+                            <label for="terms">Agree terms and conditions</label>
+                          </div>
+                        <button type="submit" class="self-stretch px-16 py-4 mt-12 text-white bg-orange-400 rounded-md shadow-md hover:bg-orange-500 ">
+                          Submit Information
+                        </button>
+                      </div>
+                    </div>
+                    <div class="flex flex-col ml-5 w-6/12">
+                      <div class="flex flex-col w-full font-medium leading-loose text-zinc-500">
+                        <label for="cv" class="self-start text-base">Upload your CV/Resume</label>
+                        <div class="flex gap-2.5 py-3.5 mt-4  text-sm">
+                          <img loading="lazy" src="/Assets/upload.png" alt="" class="object-contain shrink-0 self-start aspect-[1.1] w-[22px]" />
+                          <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" class="flex-auto w-[366px]" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+          <section class="flex justify-center items-center mt-20 mb-20">
+            <img src="/Assets/map.png" alt="" class="max-w-full w-[60%] mx-20">
+          </section>
+
+
+            <section class="h-screen"></section>
+
+
+          <section class="flex justify-center items-center mt-20 mb-20">
+            <div class="flex flex-col items-center text-2xl max-w-[918px]">
+              <div
+                class="z-10 mt-0 text-6xl font-semibold text-center text-stone-900 max-md:max-w-full max-md:text-4xl"
+                role="heading"
+                aria-level="2"
+              >
+                Subscribe to Our Newsletter for <br> Design Insights
+              </div>
+              <div
+                class="mt-10 font-medium leading-10 text-center text-neutral-600 max-md:max-w-full"
+              >
+                Be the first to discover trends, inspirations, and special offers as we <br>
+                bring the world of design directly to your inbox
+              </div>
+              <form 
+                class="flex flex-wrap gap-5 justify-between self-stretch  p-10 mt-32 w-full max-md:mt-10 max-md:max-w-full shadow-lg"
+                aria-label="Newsletter subscription form"
+              >
+                <div class="flex gap-4 my-auto font-medium">
+                  <img
+                    loading="lazy"
+                    src="/Assets/fi-br-envelope.png"
+                    class="object-contain shrink-0 my-auto w-6 aspect-square"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <label for="emailInput" class="sr-only">Enter your email address</label>
+                  <input
+                    type="email"
+                    id="emailInput"
+                    name="email"
+                    class="flex-auto text-neutral-400 bg-transparent border-none focus:outline-none focus:ring-2 focus:ring-orange-300"
+                    placeholder="Enter your email address"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="px-16 py-4 font-semibold text-white whitespace-nowrap bg-orange-400 rounded max-md:px-5 hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </section> 
+
+          <section class="flex flex-col rounded-none" aria-label="Contact and Footer Section">
+            <div
+              class="flex flex-col items-center mt-40 px-20 pb-12 w-[100vh] bg-white max-md:px-5 max-md:max-w-full"
+              role="contentinfo"
+            >
+              <div class="flex z-10 flex-col mt-0 max-w-full w-[1250px]">
+                <div
+                  class="flex relative flex-col flex-wrap gap-5 justify-between px-14 py-11 w-full font-bold min-h-[200px] max-md:px-5 max-md:max-w-full"
+                >
+                <div
+                class="flex justify-center items-center"
+              >
+                <div
+                  class="bg-blue-800 rounded-lg md:w-3/4 lg:w-2/3 xl:w-1/2"
+                  style="width: 1400px; height: 200px;"
+                >
+                
+                <h2 class="text-white  tracking-normal text-4xl text-left  ml-16 mt-12"> Do you have any questions? Feel <br> free to contact us</h2>
+                </div>
+                <img src="/Assets/arrowpattern.png" alt="Arrow Pattern" style="position: absolute; top: 2; left: 70%; transform: translateX(-50%); width: 40%; height: 70%;  z-index: 0;">
+                <div class="absolute transform -translate-y-1/2" style="right: 60px; top:52%;">
+                  <a href="/App/Contact/contact-us.html" target="_blank" class="bg-white text-blue-800 hover:bg-blue-700 hover:text-white border border-blue-500  shadow-lg font-bold rounded py-4 px-12">
+                    CONTACT US NOW
+                  </a>
+                </div>
+               
+                </div>
+              </div>
+              </div>
+        
+                 
+          
+                </div>
+                <nav
+                  class="flex flex-wrap gap-32 justify-between items-start self-center mt-20 max-w-full w-[1068px] max-md:mt-10"
+                  aria-label="Footer Navigation"
+                >
+                <div class="flex flex-col items-start mt-3 text-sm text-slate-900">
+                  <div class="flex gap-3.5 text-xl font-bold leading-tight whitespace-nowrap text-slate-900">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/445a165598f21db34553babc81e8253277b26b1250e610cbbd03388b89dfd976?placeholderIfAbsent=true&apiKey=2b7443a1ded74e1fba681427716fbd88"
+                      class="object-contain shrink-0 aspect-[0.73] w-[27px]"
+                      alt="StartupLanding Logo"
+                    />
+                    <div class="my-auto basis-auto">StartupLanding</div>
+                  </div>
+                  <div class="mt-6">
+                    <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Terms of use</a> | 
+                    <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Privacy</a>
+                  </div>
+                  <div class="self-stretch mt-5">Copyright by 2019 YourName, Inc</div>
+                </div>
+                
+           
+                <div class="flex flex-col mb-8" role="navigation" aria-label="About Us Links">
+                  <h3 class="self-start text-lg font-bold tracking-tight leading-loose text-bg-blue-800">
+                    About Us
+                  </h3>
+                  <ul class="mt-7 text-base font-medium leading-10 text-blue-800">
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Support Center</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Customer Support</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">About Us</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Copyright</a></li>
+                  </ul>
+                </div>
+                
+        
+                <div class="flex flex-col mr-10 mb-8" role="navigation" aria-label="Information Links">
+                  <h3 class="text-lg font-bold tracking-tight leading-loose text-bg-blue-800 max-md:mr-2.5">
+                    Our Information
+                  </h3>
+                  <ul class="mt-7 text-base font-medium leading-10 text-blue-800">
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Return Policy</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Terms & Conditions</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Site Map</a></li>
+                  </ul>
+                </div>
+                
+              
+                <div class="flex flex-col mb-8" role="navigation" aria-label="Account Links">
+                  <h3 class="text-lg font-bold tracking-tight leading-loose text-bg-blue-800 max-md:mr-1.5">
+                    My Account
+                  </h3>
+                  <ul class="mt-7 text-base font-medium leading-10 text-blue-800">
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Press inquiries</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Social media</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">directories</a></li>
+                    <li><a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Images & B-roll</a></li>
+                  </ul>
+                </div>
+                
+          
+                <div class="flex flex-col self-stretch whitespace-nowrap mb-8" role="navigation" aria-label="Social Links">
+                  <h3 class="self-start text-lg font-bold tracking-tight leading-loose text-bg-blue-800">
+                    Connect
+                  </h3>
+                  <ul class="mt-7 text-base font-medium leading-10 text-blue-800">
+                    <li>
+                      <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" style="display: flex; align-items: center;">
+                        <img src="/Assets/fb.png" alt="Facebook Logo" style="width: 16px; height: 16px; margin-right: 4px;">
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" style="display: flex; align-items: center;">
+                        <img src="/Assets/x.png" alt="Twitter Logo" style="width: 16px; height: 16px; margin-right: 4px;">
+                        Twitter
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" style="display: flex; align-items: center;">
+                        <img src="/Assets/github.png" alt="Github Logo" style="width: 16px; height: 16px; margin-right: 4px;">
+                        Github
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" style="display: flex; align-items: center;">
+                        <img src="/Assets/dribble.png" alt="Dribbble Logo" style="width: 16px; height: 16px; margin-right: 4px;">
+                        Dribbble
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                </nav>
+              </div>
+            </div>
+          </section>
+
+
+        </body>
+        </html>
