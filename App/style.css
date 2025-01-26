@@ -68,3 +68,18 @@ body {
 {
   background-color: #353448;
 }
+
+.bg-blue-800
+{
+  background-color: #183656;
+}
+.custom-width
+{
+  width:160vh;
+}
+
+.custom-height
+{
+  height: 20vh;
+}
+
