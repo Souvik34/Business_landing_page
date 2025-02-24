@@ -8,7 +8,8 @@ A professional and responsive landing page designed for showcasing business serv
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Customization](#customization)
-* [Troubleshooting](#troubleshooting)
+
+![Home](https://github.com/user-attachments/assets/02d041b3-8b47-470a-a286-f3d6c13b80a4)
 
 
 ## Technologies Used
@@ -68,8 +69,7 @@ A professional and responsive landing page designed for showcasing business serv
 * Text: Update the text to reflect your business's services and mission.
 * Images: Update the images to showcase your business's products or services.
 
-# Troubleshooting
------------------
+
 
 ### Common Issues
 
